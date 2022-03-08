@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">     <!--import navigation bar id and class -->
+            <div class="container">                             <!-- container is used so that everything in html dosen't go out of bounds-->
+              <div class="navbar-header">                       <!-- navbar header is imported so that you can put image in the navigation bar header-->
+                  
+            <div class="navbar-brand">                          <!-- specify the brand name using navbar-brand class -->
+                <a href="index.html"><h1>Demo webpage</h1></a>  <!-- used brand and also put in a link-->                      <!-- image used below brand name header -->
+            </div>
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">  
+                   <span class="sr-only">Toggle navigation</span>            <!-- navbar-toggle indicates you how to toggle navigation -->
+                   <span class="icon-bar"></span>                            <!-- 3 icon bar classes defines the three lines in nav pen when page shrunk -->
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+               </button>                                                     <!-- closing the button tag -->
+              </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">          <!-- id collapsable-nav is called upon which was created above -->
+           <ul id="nav-list" class="nav navbar-nav navbar-right hidden-lg hidden-md hidden-sm">       
+            <li>
+              <a href="#hfw">                              
+               Horrizon Forbidden West</a>
+            </li>
+            <li>
+              <a href="#dl2">
+               Dying light 2</a>
+            </li>
+            <li>
+              <a href="#er">
+               Elden Ring</a>
+            </li>
+          </ul>                 <!-- #nav-list -->
+        </div>                  <!-- .collapse .navbar-collapse -->
+      </div>                    <!-- .container -->
+    </nav>
+
+    </header>
+
+    <div class="row">
+      <h1>Top Games To Keep An Eye On 2022 Q1</h1>
+
+        <section class="col-lg-4 col-md-6 col-sm-12" id="container">
+            <h3 class="p1" id="hfw">Horrizon Forbidden West</h3>
+            <p id="or">
+                 Horizon Forbidden West is an action role-playing video game developed by Guerrilla
+                 Games and published by Sony Interactive Entertainment for the PlayStation 4 and PlayStation 5.
+                 A sequel to 2017's Horizon Zero Dawn, it is a single-player open world game set in a
+                 post-apocalyptic version of the western United States.
+        </section>
+
+        <section class="col-lg-4 col-md-6 col-sm-12" id="container">
+             <h3 class="p2" id="dl2">Dying Light 2</h3>
+             <p>
+                 Dying Light 2 Stay Human is a 2022 action role-playing game developed and published by Techland.
+                 The sequel to Dying Light, the game was released on February 4, 2022 for Microsoft Windows,
+                 PlayStation 4, PlayStation 5, Xbox One, and Xbox Series X/S. A Nintendo Switch version for the
+                 cloud is currently in development.
+             </p>
+            
+       </section>
+        <section class="col-lg-4 col-md-12 col-sm-12" id="container">
+             <h3 class="p3" id="er">Elden Ring</h3>
+             <p id="gr">
+                 Elden Ring is an upcoming action role-playing game developed by FromSoftware and published by
+                 Bandai Namco Entertainment. The game, directed by Hidetaka Miyazaki, was made in collaboration
+                 with fantasy novelist George R. R. Martin, who provided material for the game's setting.
+             </p>
+
+        </section>
+
+      </div>
+    
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
